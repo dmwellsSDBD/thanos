@@ -1,0 +1,148 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Sarabun:wght@100;400;700&family=Water+Brush&family=Yrsa:wght@400;700&display=swap');
+
+/* Fonts
+font-family: 'Bangers', cursive;
+font-family: 'Sarabun', sans-serif;
+font-family: 'Water Brush', cursive;
+font-family: 'Yrsa', serif;
+*/
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color:#323C59;
+}
+
+nav {
+    background-color: #5A378Caa;
+    min-height: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding-top: .5em;
+}
+
+nav li {
+    display: inline;
+    padding: 20px 15px;
+}
+
+nav a {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    color: #323C59;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #F2F2F2;
+}
+
+nav a:hover {
+    color: #5881A6;
+    text-shadow: 0px 0px 0px #f2f2f2;
+}
+
+header {
+    font-family: 'Bangers', cursive;
+    background-color: #5881A6;
+    color: #F2F2F2;
+}
+
+header h1 {
+    font-size: 8em;
+    text-align: center;
+}
+
+blockquote {
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 50%;
+    font-family: 'Water Brush', cursive;
+    font-size: 3em;
+    color:#323C59
+}
+
+main {
+    min-height: 339px;
+    padding-top: 50px;
+}
+
+.home {
+    background-image: url("../images/thanosHome.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #F2F2F2;
+    color: #323C59;
+    padding: 50px;
+    padding-right: 45%;
+    font-size: 2.5em;
+}
+
+.titan {
+    background-image: url("../images/thanosHome.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: #F2F2F2;
+    color: #323C59;
+    padding: 50px;
+    padding-right: 45%;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+}
+
+p {
+    margin: 10px 0;
+}
+
+table {
+    
+}
+
+#fNav {
+    font-family: 'Sarabun', sans-serif;
+    font-size: .5em;
+    background-color: #A65D33;
+    min-height: 1.5em;
+}
+
+#fNav ul {
+    text-align: left;
+}
+
+#fNav li {
+    padding: 10px;
+}
+
+#fnav a {
+    
+}
+
+#fNav a:hover {
+    color: #F2F2F2;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    min-height: 100px;
+    font-size: .5em;
+    background-color: #323C59;
+    color: #f2f2f2;
+}
